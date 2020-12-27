@@ -1,0 +1,6 @@
+name: LuckyBlocks
+version: ${project.version}
+main: de.moozunity.luckyblocks.LuckyBlocks
+api-version: 1.13
+authors: [ MooZiii ]
+description: Good old lucky blocks :)
