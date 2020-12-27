@@ -7,6 +7,7 @@ import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.awt.*;
 import java.util.ArrayList;
 
 public final class LuckyBlocks extends JavaPlugin {
@@ -44,6 +45,7 @@ public final class LuckyBlocks extends JavaPlugin {
         addAction(new BedrockAction());
         addAction(new ChooseAction());
         addAction(new StackAction());
+        addAction(new DinoAction());
     }
 
     public static void addAction(Action action) {
